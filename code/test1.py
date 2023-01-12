@@ -13,6 +13,7 @@ class test1:
 
     def print_out(self):
         print("hello")
+        print(self.name)
 
 me = test1("sup", 10, False)
 mr = test1("mr elden ring", 412, True)
